@@ -8,16 +8,16 @@ export const Container = styled.div`
   gap: 2rem;
   margin-top: -8rem;
 
-  &.highlight-background {
-    background: ${Theme.COLORS.green};
-    color: ${Theme.COLORS.white};
-  }
-
   div {
     background: ${Theme.COLORS.shape};
     padding: 1.5rem 2rem;
     border-radius: 0.25rem;
     color: ${Theme.COLORS.textTitle};
+
+    &.highlight-background {
+      background: ${Theme.COLORS.green};
+      color: ${Theme.COLORS.white};
+    }
 
     header {
       display: flex;
